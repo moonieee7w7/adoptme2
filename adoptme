@@ -46,7 +46,7 @@ Items = {},
 },
 AutoBuy = {
 Enabled = true,
-SelectedItems = {"pets|halloween_2025_ghostly_cat", "pets|halloween_2025_slimingo"},
+SelectedItems = {"halloween_2025_ghostly_cat", "halloween_2025_slimingo"},
 },
 AutoPay = {
 Enabled = false,
