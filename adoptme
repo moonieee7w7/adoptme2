@@ -1,4 +1,19 @@
-wait(60)
-getgenv().HalloweenFarmWebhookURL = "Webhook here" -- Your Discord webhook URL
-script_key="QlJflmRYfFDuZBBkRBMmfBYCMonQGtRc"
-loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMe/EventFarm.lua"))()
+script_key="WorkFine";
+getgenv().Config = {
+    ["PetAMountToBuy"] = "9999", -- can be 999
+    ["WhatCategory"] = "pets", -- gifts if WhatCategory = "" then = pets
+    ["PetRemoteToBuy"] = "halloween_2025_ghostly_cat", -- exemple for gifts halloween_2025_spider_box
+
+    ["PetFarmAutoSwitchFullGrown"] = false,
+    ["PetFarmActive"] = false,
+    ["LitePetFarmActive"] = true,
+    ["EggFarmActive"] = false,
+    
+    ["HideUselessGui"] = true,
+    ["Blur_username"] = true,
+    ["Blazing_Lion_Log"] = false,
+    ["DiscordId"] = "123456",
+    ["Webhook"] = "",
+    ["LegendaryWebhook"] = "",
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66567bfd337b57eb059b58dbe1badb89.lua"))()
