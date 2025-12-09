@@ -51,7 +51,7 @@ ExcludeNeons = false,
 ExcludeFullGrown = false
 },
 AutoBuy = {
-Enabled = true, -- Enable auto buying system
+Enabled = false, -- Enable auto buying system
 SelectedItems = {"pets|winter_2025_turtle_doves"}, -- Items to buy (e.g., {"pet_food", "water_cooler", "pizza_ingredients"})
 },
 AutoPay = {
