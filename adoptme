@@ -34,11 +34,11 @@ Disable3DRendering = true, -- Disable 3D rendering for better performance
 ReduceGraphics = true, -- Reduce graphics quality to minimum
 },
 AutoPotion = {
-Enabled = false, -- Use age potions on pets to level them up
+Enabled = true, -- Use age potions on pets to level them up
 SelectedPets = {}, -- Pet IDs to use potions on (empty = use on all pets)
 },
 AutoTrade = {
-Enabled = true, -- Enable auto trade
+Enabled = false, -- Enable auto trade
 AutoAcceptTrades = false, -- Automatically accept incoming trade requests
 Usernames = {"Lzjf"}, -- Usernames to send trades to (cycles through list if multiple)
 TradeMode = "all", -- "all" = trade everything in categories, "specific" = only trade Items list
@@ -53,8 +53,8 @@ ExcludeNeons = false, -- If true, don't trade neon or mega neon pets
 ExcludeFullGrown = false, -- If true, don't trade full grown pets
 },
 AutoBuy = {
-Enabled = false, -- Automatically buy items from shops
-SelectedItems = {}, -- Item IDs to buy
+Enabled = true, -- Automatically buy items from shops
+SelectedItems = {"pets|winter_2025_christmas_spirit"}, -- Item IDs to buy
 },
 AutoPay = {
 Enabled = false, -- Send bucks to another player
