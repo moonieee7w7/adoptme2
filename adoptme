@@ -74,7 +74,7 @@ ExcludedPets = {}, -- Pet IDs to never recycle even if rarity matches
 },
 IdleProgression = {
 Enabled = true, -- Put pets in pet pen for idle leveling
-SelectedPets = {"cracked_egg"}, -- Pet IDs to put in pet pen (empty = use all)
+SelectedPets = {""}, -- Pet IDs to put in pet pen (empty = use all)
 ExcludedPets = {}, -- Pet IDs to never put in pet pen
 },
 Webhook = {
